@@ -1,0 +1,14 @@
+C:\Projetos\Cs\AppSaldo\bin\Debug\net9.0\AppSaldo.exe
+C:\Projetos\Cs\AppSaldo\bin\Debug\net9.0\AppSaldo.deps.json
+C:\Projetos\Cs\AppSaldo\bin\Debug\net9.0\AppSaldo.runtimeconfig.json
+C:\Projetos\Cs\AppSaldo\bin\Debug\net9.0\AppSaldo.dll
+C:\Projetos\Cs\AppSaldo\bin\Debug\net9.0\AppSaldo.pdb
+C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\AppSaldo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\AppSaldo.AssemblyInfoInputs.cache
+C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\AppSaldo.AssemblyInfo.cs
+C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\AppSaldo.csproj.CoreCompileInputs.cache
+C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\AppSaldo.dll
+C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\refint\AppSaldo.dll
+C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\AppSaldo.pdb
+C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\AppSaldo.genruntimeconfig.cache
+C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\ref\AppSaldo.dll
