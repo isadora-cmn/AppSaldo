@@ -12,3 +12,4 @@ C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\refint\AppSaldo.dll
 C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\AppSaldo.pdb
 C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\AppSaldo.genruntimeconfig.cache
 C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\ref\AppSaldo.dll
+C:\Projetos\Cs\AppSaldo\obj\Debug\net9.0\AppSaldo.sourcelink.json
