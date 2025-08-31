@@ -1,8 +1,8 @@
 ﻿using AppSaldo.Models;
 using AppSaldo.Interfaces;
 
-ICalculadora calc = new Calculadora();
-Console.WriteLine(calc.Multiplicar(3, 9));
+// ICalculadora calc = new Calculadora();
+// Console.WriteLine(calc.Multiplicar(3, 9));
 
 
 // Computador c = new Computador();
@@ -42,12 +42,19 @@ Console.WriteLine(calc.Multiplicar(3, 9));
 
 // //Conta Corrente
 
-// // ContaCorrente c1 = new ContaCorrente(123, 1000);
+int numeroConta = 123;
+decimal saldoInicial = 1000;
 
-// // c1.ExibirSaldo();
-// // c1.Sacar(500);
-// // c1.ExibirSaldo();
+ContaCorrente contaCorrente = new ContaCorrente(numeroConta, saldoInicial);
 
+contaCorrente.ExibirSaldo();
 
+decimal valorSaque = contaCorrente.CapturarValorDeSaque();
+bool valorSaqueRealizado = contaCorrente.Sacar(valorSaque);
 
+if (valorSaqueRealizado == false)
+{
+    throw new Exception("Valor desejado é maior que o saldo disponivel");
+}
 
+contaCorrente.ExibirSaldo();

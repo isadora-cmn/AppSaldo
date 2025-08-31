@@ -15,21 +15,33 @@ namespace AppSaldo.Models
 
         public int NumeroConta { get; set; }
         private decimal saldo;
-        public void Sacar(decimal valor)
+
+        public bool Sacar(decimal valor)
         {
             if (saldo >= valor)
             {
                 saldo -= valor;
-                Console.WriteLine("Saque realizado");
+                Console.WriteLine($"Saque realizado de R${valor}");
+                return true;
             }
             else
             {
-                Console.WriteLine("Valor desejado é maior que o saldo disponivel");
+                return false;
             }
         }
         public void ExibirSaldo()
         {
             Console.WriteLine("Seu saldo disponivel é :" + saldo);
+        }
+
+        public decimal CapturarValorDeSaque()
+        {
+            Console.WriteLine("Digite o valor que deseja sacar:");
+
+            string valorDigitado = Console.ReadLine();
+            decimal valorDigitadoConvertido = Convert.ToDecimal(valorDigitado);
+
+            return valorDigitadoConvertido;
         }
     }
 }

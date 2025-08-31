@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppSaldo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0f5fb14dd082e115335be83c70611ff5ccc44f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+948cf62870b6f92105d35b2c07ecd093d730011a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppSaldo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppSaldo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
